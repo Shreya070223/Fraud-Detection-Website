@@ -1,0 +1,20 @@
+->set up module installation
+python -m venv venv     → Build your own room
+.\venv\Scripts\activate   → Enter that room
+pip install ...         → Bring tools INTO that room
+
+-> start the prog
+python explore.py
+python test_model.py
+streamlit run app.py
+
+->git command
+
+git init
+git add .
+git commit -m "---"
+git repo link//           // in start
+git branch -M main         // in start
+git push -u origin main
+git pull origin main --allow-unrelated-histories    // if error
+then-->  git push -u origin main                  
